@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
   }
   body {
-    background-color: #09090b;
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
     overflow-x: hidden;
   }
   ::selection {
