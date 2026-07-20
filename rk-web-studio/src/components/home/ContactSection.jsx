@@ -6,7 +6,7 @@ import Reveal from '../ui/Reveal.jsx';
 const info = [
   { icon: Phone, label: 'Call', value: '+91 91822 85902', href: 'tel:+919182285902' },
   { icon: Mail, label: 'Email', value: 'rakeshsingampalli770@gmail.com', href: 'mailto:rakeshsingampalli770@gmail.com' },
-  { icon: MapPin, label: 'Location', value: 'Hyderabad, Telangana, India', href: '#' },
+  { icon: MapPin, label: 'Location', value: 'Visakhapatnam, Andhra Pradesh, India', href: '#' },
   { icon: Clock, label: 'Business Hours', value: 'Every day, 9:00 AM – 9:00 PM', href: '#' },
 ];
 
@@ -41,7 +41,7 @@ export default function ContactSection() {
             <div className="rounded-xl2 overflow-hidden border border-white/10 h-56">
               <iframe
                 title="RK Web Studio location"
-                src="https://www.google.com/maps?q=Hyderabad,Telangana,India&output=embed"
+              src="https://www.google.com/maps?q=Visakhapatnam,Andhra+Pradesh,India&output=embed"
                 className="w-full h-full grayscale contrast-125 opacity-80"
                 loading="lazy"
               />
