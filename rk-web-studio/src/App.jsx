@@ -36,7 +36,7 @@ export default function App() {
     <>
       <AnimatePresence>{initialLoad && <LoadingScreen />}</AnimatePresence>
 
-      <div className="relative min-h-screen bg-surface bg-noise selection:bg-primary-500">
+      <div className="relative min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 selection:bg-primary-500">
         <Navbar />
         <ScrollToTop />
         <AnimatePresence mode="wait">
