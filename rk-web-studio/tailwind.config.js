@@ -26,11 +26,11 @@ export default {
           500: '#8B5CF6',
           600: '#7C3AED',
         },
-        surface: {
-          DEFAULT: '#09090B',
-          card: '#18181B',
-          border: '#27272A',
-        },
+       surface: {
+  DEFAULT: '#0F172A',
+  card: '#1E293B',
+  border: '#334155',
+},
         ink: {
           DEFAULT: '#FAFAFA',
           muted: '#A1A1AA',
