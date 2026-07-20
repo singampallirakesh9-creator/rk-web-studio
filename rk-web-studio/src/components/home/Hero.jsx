@@ -86,14 +86,14 @@ export default function Hero() {
           >
             <div>
               <div className="text-3xl font-display font-bold text-ink">
-                <Counter to={5} suffix="+" />
+                <Counter to={10} suffix="+" />
               </div>
               <p className="text-xs text-ink-faint mt-1">Websites Delivered</p>
             </div>
             <div className="w-px h-10 bg-white/10" />
             <div>
               <div className="flex items-center gap-1 text-3xl font-display font-bold text-ink">
-                <Counter to={7} suffix=".0" />
+                <Counter to={5} suffix=".0" />
                 <Star className="w-5 h-5 fill-accent-400 text-accent-400 ml-1" />
               </div>
               <p className="text-xs text-ink-faint mt-1">Average Client Rating</p>
