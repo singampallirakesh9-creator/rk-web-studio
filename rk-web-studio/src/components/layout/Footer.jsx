@@ -108,7 +108,7 @@ export default function Footer() {
             {[Instagram, Linkedin, Twitter, Facebook].map((Icon, i) => (
               <a
                 key={i}
-                href="#"
+                href="https://instagram.com/Singampalli-rakesh"
                 className="w-9 h-9 rounded-full glass flex items-center justify-center text-ink-muted hover:text-ink hover:border-white/25 transition-colors"
                 aria-label="Social link"
               >
