@@ -101,7 +101,7 @@ export default function Footer() {
               <Phone className="w-4 h-4 text-accent-400" /> +91 91822 85902
             </a>
             <span className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-accent-400" /> Hyderabad, India
+             <MapPin className="w-4 h-4 text-accent-400" /> Visakhapatnam, India
             </span>
           </div>
           <div className="flex items-center gap-3">
