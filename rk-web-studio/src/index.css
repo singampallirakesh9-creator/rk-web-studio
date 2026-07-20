@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #09090b;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: #6366f1;
+    color: #fafafa;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #6366f1 #09090b;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #09090b;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#6366f1, #06b6d4);
+    border-radius: 8px;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.02em;
+  }
+  :focus-visible {
+    outline: 2px solid #06b6d4;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply px-6 sm:px-10 lg:px-16;
+  }
+  .section-py {
+    @apply py-24 md:py-32;
+  }
+  .glass {
+    @apply bg-white/[0.04] backdrop-blur-xl border border-white/[0.08];
+  }
+  .card-surface {
+    @apply bg-surface-card border border-surface-border rounded-xl2;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-mesh-primary;
+  }
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full font-display font-semibold text-sm text-white bg-mesh-primary bg-200% transition-all duration-500 hover:bg-right hover:shadow-glow active:scale-95;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full font-display font-semibold text-sm text-ink border border-white/15 hover:border-white/30 hover:bg-white/5 transition-all duration-300 active:scale-95;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-accent-400;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
