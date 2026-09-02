@@ -109,7 +109,7 @@ export default function Hero() {
         >
           <div className="relative rounded-xl3 overflow-hidden border border-white/10 shadow-card">
             <img
-  src="https://raw.githubusercontent.com/singampallirakesh9-creator/rk-web-studio/main/rk-web-studio/file_00000000978c82118d7ca20b749ac9e3.png"
+  src="https://raw.githubusercontent.com/singampallirakesh9-creator/rk-web-studio/main/file_00000000978c82118d7ca20b749ac9e3.png"
   alt="RK Web Studio"
   className="w-full h-[560px] object-cover"
 />
