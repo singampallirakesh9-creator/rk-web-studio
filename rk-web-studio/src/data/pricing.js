@@ -1,7 +1,7 @@
 export const pricingPlans = [
   {
     name: 'Starter',
-    price: '14,999',
+    price: '5,999',
     period: 'one-time',
     description: 'A focused one-page site for new and small businesses.',
     features: [
@@ -17,7 +17,7 @@ export const pricingPlans = [
   },
   {
     name: 'Growth',
-    price: '29,999',
+    price: '9,999',
     period: 'one-time',
     description: 'A full multi-page website built to convert local customers.',
     features: [
@@ -34,7 +34,7 @@ export const pricingPlans = [
   },
   {
     name: 'Premium',
-    price: '49,999',
+    price: '14,999',
     period: 'one-time',
     description: 'A fully custom, animation-rich site for established brands.',
     features: [
