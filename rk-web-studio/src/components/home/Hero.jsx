@@ -111,7 +111,7 @@ export default function Hero() {
             <img
   src="https://raw.githubusercontent.com/singampallirakesh9-creator/rk-web-studio/main/file_00000000978c82118d7ca20b749ac9e3.png"
   alt="RK Web Studio"
-  className="w-full h-[560px] object-cover"
+  className="w-full h-[560px] object-contain"
 />
             <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" />
           </div>
