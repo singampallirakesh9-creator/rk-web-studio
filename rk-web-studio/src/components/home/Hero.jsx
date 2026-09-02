@@ -109,10 +109,10 @@ export default function Hero() {
         >
           <div className="relative rounded-xl3 overflow-hidden border border-white/10 shadow-card">
             <img
-              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1000&q=80"
-              alt="Developer working on a premium website design"
-              className="w-full h-[560px] object-cover"
-            />
+  src="https://raw.githubusercontent.com/singampallirakesh9-creator/rk-web-studio/main/rk-web-studio/file_00000000978c82118d7ca20b749ac9e3.png"
+  alt="RK Web Studio"
+  className="w-full h-[560px] object-cover"
+/>
             <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" />
           </div>
 
