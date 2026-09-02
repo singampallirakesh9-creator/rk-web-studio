@@ -86,7 +86,7 @@ export default function Hero() {
           >
             <div>
               <div className="text-3xl font-display font-bold text-ink">
-                <Counter to={15} suffix="+" />
+                <span>15+</span>
               </div>
               <p className="text-xs text-ink-faint mt-1">Websites Delivered</p>
             </div>
